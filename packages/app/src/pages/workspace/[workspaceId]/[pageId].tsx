@@ -25,7 +25,7 @@ const StyledEditorContainer = styled('div')(() => {
   };
 });
 
-const firstPageTitle = 'Welcome to AFFiNE Alpha "Abbey Wood"' as const;
+const firstPageTitle = 'Welcome to Iftiin-Memo' as const;
 
 const Page: NextPageWithLayout = () => {
   const editorContainer = useRef<HTMLDivElement>(null);
