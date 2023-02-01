@@ -1,9 +1,9 @@
 {
-  "name": "AFFiNE",
-  "short_name": "AFFiNE",
+  "name": "Iftiin-Memo",
+  "short_name": "Iftiin-Memo",
   "icons": [
     {
-      "src": "/chrome-192x192.png",
+      "src": "/memo.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
