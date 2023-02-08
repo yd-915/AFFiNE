@@ -1,4 +1,4 @@
-import { AllPagesIcon, FavouritesIcon, TrashIcon, HomeIcon } from '@blocksuite/icons';
+import { AllPagesIcon, FavouritesIcon, TrashIcon } from '@blocksuite/icons';
 import { useTranslation } from '@affine/i18n';
 
 export const useSwitchToConfig = (
@@ -13,7 +13,7 @@ export const useSwitchToConfig = (
       {
       title: t('Home'),
       href: 'https://www.iftiinhub.pro/homepage',
-      icon: HomeIcon,
+      
     },
     {
       title: t('All pages'),
