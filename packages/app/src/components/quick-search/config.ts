@@ -1,4 +1,4 @@
-import { AllPagesIcon, FavouritesIcon, TrashIcon } from '@blocksuite/icons';
+import { AllPagesIcon, FavouritesIcon, TrashIcon, HomeIcon } from '@blocksuite/icons';
 import { useTranslation } from '@affine/i18n';
 
 export const useSwitchToConfig = (
