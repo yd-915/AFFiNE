@@ -10,6 +10,11 @@ export const useSwitchToConfig = (
 }[] => {
   const { t } = useTranslation();
   const List = [
+      {
+      title: t('Home'),
+      href: 'https://www.iftiinhub.pro/homepage',
+      icon: HomeIcon,
+    },
     {
       title: t('All pages'),
       href: currentWorkspaceId ? `/workspace/${currentWorkspaceId}/all` : '',
