@@ -98,7 +98,7 @@ const PopoverContent = () => {
         }}
         icon={<TrashIcon />}
       >
-        {t('HOME')}
+        {t('Delete')}
       </MenuItem>
        <MenuItem
         data-testid="editor-option-menu-delete"
