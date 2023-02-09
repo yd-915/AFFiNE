@@ -100,25 +100,7 @@ const PopoverContent = () => {
       >
         {t('Delete')}
       </MenuItem>
-       <MenuItem
-        data-testid="editor-option-menu-delete"
-        onClick={() => {
-          confirm({
-            title: t('Delete page?'),
-            content: t('will be moved to Trash', {
-              title: title || 'Untitled',
-            }),
-            confirmText: t('Delete'),
-            confirmType: 'danger',
-          }).then(confirm => {
-            confirm && toggleDeletePage(id);
-            confirm && toast(t('Moved to Trash'));
-          });
-        }}
-        icon={<TrashIcon />}
-      >
-        {t('Home')}
-      </MenuItem>
+    
     </>
   );
 };
