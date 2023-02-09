@@ -30,9 +30,7 @@ export const Footer = (props: { query: string }) => {
           <span>{t('New Keyword Page', { query: query })}</span>
         ) : (
           <span>{t('New Page')}</span>
-          <a href="https://www.iftiinhub.pro/homepage">
-            <span>{t('HOME')}</span>
-            </a>
+         
         )}
       </StyledModalFooterContent>
     </Command.Item>
