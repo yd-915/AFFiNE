@@ -29,7 +29,6 @@ export const Footer = (props: { query: string }) => {
           <span>{t('New Keyword Page', { query: query })}</span>
         ) : (
           <span>{t('New Page')}</span>
-         <span>{t('Home')}</span>
         )}
       </StyledModalFooterContent>
     </Command.Item>
