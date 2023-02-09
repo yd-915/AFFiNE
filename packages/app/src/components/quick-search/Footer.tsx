@@ -23,7 +23,6 @@ export const Footer = (props: { query: string }) => {
         triggerQuickSearchModal();
       }}
     >
-      <>
       <StyledModalFooterContent>
         <AddIcon />
         {query ? (
@@ -34,6 +33,5 @@ export const Footer = (props: { query: string }) => {
         )}
       </StyledModalFooterContent>
     </Command.Item>
-      </>
   );
 };
