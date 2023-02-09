@@ -3,9 +3,9 @@
   "short_name": "Iftiin-Memo",
   "icons": [
     {
-      "src": "/memo.png",
+      "src": "/memo.ico",
       "sizes": "192x192",
-      "type": "image/png",
+      "type": "image/ico",
       "purpose": "any"
     }
   ],
